@@ -4,8 +4,8 @@ const cheerio = require('cheerio');
 
 const MENU_URL = process.env.MENU_URL;
 const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL;
+const SLACK_CHANNEL = process.env.SLACK_CHANNEL;
 const SLACK_USERNAME = process.env.SLACK_USERNAME || 'Neptun Lounas';
-const SLACK_CHANNEL = process.env.SLACK_CHANNEL || '#kmarkkinointi';
 
 const quips = [
   'Tämmöstä ois tarjolla:',

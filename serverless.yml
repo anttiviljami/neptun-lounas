@@ -8,6 +8,8 @@ provider:
   environment:
     MENU_URL: ${env:MENU_URL}
     SLACK_WEBHOOK_URL: ${env:SLACK_WEBHOOK_URL}
+    SLACK_CHANNEL: ${env:SLACK_CHANNEL}
+    SLACK_USERNAME: ${env:SLACK_USERNAME}
 
 functions:
   menu:
