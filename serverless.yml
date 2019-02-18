@@ -1,0 +1,16 @@
+service: neptun-lounas
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-1
+  stage: prod
+  environment:
+    MENU_URL: ${env:MENU_URL}
+    SLACK_WEBHOOK_URL: ${env:SLACK_WEBHOOK_URL}
+
+functions:
+  menu:
+    handler: index.handler
+    events:
+      - schedule: "cron(45 8 * * ? *)"
