@@ -13,4 +13,4 @@ functions:
   menu:
     handler: index.handler
     events:
-      - schedule: "cron(45 8 * * ? *)"
+      - schedule: "cron(45 8 ? * MON-FRI *)"
