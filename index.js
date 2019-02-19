@@ -10,11 +10,15 @@ const SLACK_USERNAME = process.env.SLACK_USERNAME || 'Neptun Lounas';
 const quips = [
   'Tämmöstä ois tarjolla:',
   'Tänään tämmöstä:',
+  'Mites syömishommat?',
   'Syömistouhuja?',
   'Lounastouhuja?',
+  'Syömään?',
   'Lounasmeiningit?',
   'Lounasjuna? :steam_locomotive:',
-  'Oisko tänään Nepalipäivä?'
+  'Oisko tänään Nepalipäivä?',
+  'Hesburger kanawrap?',
+  'Onneks tänään on perjantai!'
 ];
 
 const emojis = [
