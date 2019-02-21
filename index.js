@@ -109,7 +109,8 @@ async function handler() {
           author_name: 'www.antell.fi',
           author_link: MENU_URL
         }
-      ]
+      ],
+      icon_url: 'https://www.antell.fi/media/layout/images/mail/logo.jpg'
     };
 
     console.log('Sending the payload...');
